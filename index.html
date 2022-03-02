@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS CONF 2021</title>
+    <link rel="shortcut icon" href="img/logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="codigo.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav>
+        <div class="contenedor">
+            <a href="index.html">
+                <img src="img/logowhite.svg" alt="logo cssconf">
+            </a>
+            <div id="menu">
+                <a href="#programa">Programa</a>
+                <a href="#galeria">Actividades</a>
+                <a href="#donde">Dónde</a>
+                <a href="#inscripcion">Inscripción</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div> 
+    </nav>
+    <header>
+        <div class="contenedor">
+            <h1>CSS CONF 2021</h1>
+            <h3>Una conferencia de un día para aficionados</h3>
+        </div> 
+    </header>
+    <section id="programa">
+        <h2>Programa</h2>
+        <div class="contenedor">
+            <article>
+                <img src="img/laura.jpeg" alt="Laura González">
+                <div>
+                    <h4>CSS Houdini</h4>
+                    <p>Descubramos qué es y profundicemos en maneras específicas de usarlo.</p>
+                    <p><i class="fas fa-user"></i><b>Laura González (UI Engineer)</b></p>
+                    <p><i class="far fa-clock"></i><b>10:00 - 11:00</b></p>
+                </div>
+            </article>
+            <article>
+                <img src="img/carmen.jpeg" alt="Carmen Ansio">
+                <div>
+                    <h4>Animaciones SVG</h4>
+                    <p>Desarrollaremos las ultimas novedades para crearlas solamente con CSS.</p>
+                    <p><i class="fas fa-user"></i><b>Carmen Ansio (Ux Engineer)</b></p>
+                    <p><i class="far fa-clock"></i><b>11:00 - 12:00</b></p>
+                </div>
+            </article>
+            <article>
+                <img src="img/esteban.jpeg" alt="Esteban López">
+                <div>
+                    <h4>Figma web</h4>
+                    <p>Aprenderemos a interpretar e exportar bien un archivo basado en el lenguaje de diseño.</p>
+                    <p><i class="fas fa-user"></i><b>Esteban López (Diseñador Gráfico)</b></p>
+                    <p><i class="far fa-clock"></i><b>12:00 - 13:00</b></p>
+                </div>
+            </article>
+            <article>
+                <img src="img/elsa.jpeg" alt="Elsa Gutierrez">
+                <div>
+                    <h4>Scroll-animations</h4>
+                    <p>Una nueva adición que permite animar desplazamiento utilizando solo CSS, ¡sin JavaScript!</p>
+                    <p><i class="fas fa-user"></i><b>Elsa Gutierrez (Freelance)</b></p>
+                    <p><i class="far fa-clock"></i><b>13:00 - 14:00</b></p>
+                </div>
+            </article>
+            <article>
+                <img src="img/andres.jpeg" alt="Andrés Carrillo">
+                <div>
+                    <h4>Tags</h4>
+                    <p>Un recorrido a través de la historia de CSS, matemáticas y informática para descubrirlo</p>
+                    <p><i class="fas fa-user"></i><b>Andrés Carrillo (Programador)</b></p>
+                    <p><i class="far fa-clock"></i><b>14:00 - 15:00</b></p>
+                </div>
+            </article>
+            <article>
+                <img src="img/margarita.jpeg" alt="Margarita Albini">
+                <div>
+                    <h4>CSS Grid</h4>
+                    <p>Charlaremos sobre como organizar tu contenido de manera fácil y ordenada</p>
+                    <p><i class="fas fa-user"></i><b>Margarita Albini (Diseñadora)</b></p>
+                    <p><i class="far fa-clock"></i><b>16:00 - 17:00</b></p>
+                </div>
+            </article>
+            <article>
+                <img src="img/lautaro.jpeg" alt="Lautaro Bentancur">
+                <div>
+                    <h4>Degradados</h4>
+                    <p>Innovaremos sobre los nuevos background-blend-mode y mix-blend-mode</p>
+                    <p><i class="fas fa-user"></i><b>Lautaro Bentancur (Analista)</b></p>
+                    <p><i class="far fa-clock"></i><b>17:00 - 18:00</b></p>
+                </div>
+            </article>
+            <article>
+                <img src="img/luis.jpeg" alt="Luis Fornaroli">
+                <div>
+                    <h4>Mobile first</h4>
+                    <p>Cómo pensar la web de forma flexible y agnóstica para todos los dispositivos.</p>
+                    <p><i class="fas fa-user"></i><b>Luis Fornaroli (Ui Designer) </b></p>
+                    <p><i class="far fa-clock"></i><b>18:00 - 19:00</b></p>
+                </div>
+            </article>
+            <article>
+                <img src="img/sofia.jpeg" alt="Sofía Romano">
+                <div>
+                    <h4>Tipografias variables</h4>
+                    <p>Una evolución transformadora del diseño que crea una nueva manera de pensar sobre la tipografía y la UX.</p>
+                    <p><i class="fas fa-user"></i><b>Sofía Romano (Diseñadora Multimedia)</b></p>
+                    <p><i class="far fa-clock"></i><b>15:00 - 16:00</b></p>
+                </div>
+            </article>
+            <article>
+                <img src="img/valeria.png" alt="Valeria Furtado">
+                <div>
+                    <h4>Selectores avanzados</h4>
+                    <p>Aprenderemos a optimizar y ahorrarnos líneas de código sin utilizar exceso de clases</p>
+                    <p><i class="fas fa-user"></i><b>Valeria Furtado (Programadora)</b></p>
+                    <p><i class="far fa-clock"></i><b>19:00 - 20:00</b></p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="galeria">
+        <div class="contenedor">
+            <article>
+                <div>
+                    <h4>Compartimos juntos</h4>
+                    <p>Terminada la jornada brindamos y compartimos</p>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h4>Almuerzo</h4>
+                    <p>Al mediodía pausamos y almorzamos juntos</p>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h4>Regalos</h4>
+                    <p>Cada uno se llevará un recuerdo de este día</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="donde">
+        <h2>¿Dónde y cuándo?</h2>
+        <div class="contenedor">
+            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.8002780983466!2d-56.14059028542377!3d-34.91146128038094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f816a5bd158af%3A0x973efb35ab505d27!2sKib%C3%B3n%20Avanza!5e0!3m2!1ses-419!2suy!4v1624745833120!5m2!1ses-419!2suy" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div>
+                <div>
+                    <h2>¿Dónde y cuándo?</h2>
+                    <p>La CSS CONF 2021 se llevará a cabo el <b>sábado 20 de noviembre</b> en Montevideo, Uruguay. En esta oportunidad tendrá lugar en
+                    <b>Kibón Avanza</b>, un edificio circular ubicado en la rambla de Pocitos. La locación elegida tiene tecnología de vanguardia, rampas de acceso, 
+                    estacionamiento, etc. Se desarrollará a partir de las <b>10:00</b> hasta su final a las <b>20:00</b> donde habrá un espacio para compartir entre todos los participantes.
+                    Están todos invitados!</p>
+                </div>
+                <a href="#" class="cta">Ampliar</a>
+            </div>
+        </div>
+    </section>
+    <section id="inscripcion">
+        <h2>Inscripciones</h2>
+        <div class="contenedor">
+            <form action="formulario" method="GET">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="text" name="fecha" id="fecha" placeholder="DD/MM/YY" required>
+                <select name="nivel" id="nivel" required>
+                    <option value="" selected disabled>Nivel Educativo</option> 
+                    <option value="">Nivel Secundario</option>
+                    <option value="">Nivel Terciario</option>
+                    <option value="">Posgrado</option>
+                </select>
+                <input type="text" name="carrera" id="carrera" placeholder="Carrera" required>
+                <input type="checkbox" id="terminos" name="terminos" value="terminos" required>
+                <label for="terminos">Acepto términos y condiciones</label>
+                <input type="submit" value="Inscribirme" class="cta">
+            </form>
+            <aside>
+                <h4>+ info:</h4>
+                <p>Precio de la entrada: <b>$3400 UY.</b> <br>
+                Se puede adquirir hasta 72 horas antes del evento. Por cualquier duda consultar a cssconfuru2021@gmail.com o al 099036137.</p>
+            </aside>  
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor">
+            <div>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div id="column">
+                <div>
+                    <a href="#" target="_blank">Contactanos</a>
+                    <a href="#" target="_blank">Sobre los organizadores</a>
+                </div>
+                <div>
+                    <a href="#" target="_blank">Anotate</a>
+                    <a href="#" target="_blank">Dónde y cuándo</a>
+                <a href="#" target="_blank">Faq</a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
